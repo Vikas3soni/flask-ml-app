@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 [4]
 gcloud app create
-
+export GOOGLE_APPLICATION_CREDENTIALS="key.json"
 [5]
 export CLOUD_STORAGE_BUCKET=<bucket name for storage>
 

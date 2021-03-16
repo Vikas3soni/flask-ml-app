@@ -28,3 +28,18 @@ app.yaml add gcs bucket name
 
 [7]
 gcloud app deploy
+
+
+
+----
+Load testing of App Engine
+
+search "lamp stack" in search menu
+launch machine
+
+ab -V
+
+ab -n 2 -c 1 https://housing-project-304202.ue.r.appspot.com/
+
+ab -n 1000 -c 4 http://housing-project-304202.ue.r.appspot.com/
+ab -n 16000 -c https://housing-project-304202.ue.r.appspot.com/
